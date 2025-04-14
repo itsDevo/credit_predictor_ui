@@ -12,7 +12,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     month = st.selectbox("Month", ["January", "February", "March", "April", "May", "June", "July", "August"])
     city = st.selectbox("City", ['None'],help="This feature is not used in this model",disabled=True) # All cities in the dataset is included
-    age = st.number_input("Age", min_value=18, max_value=100,help="Represents the age of the person",disabled=True)
+    age = st.number_input("Age", min_value=18, max_value=100,help="This feature is not used in this model",disabled=True)
     occupation = st.selectbox("Occupation", ['Architect', 'Cleaner', 'Journalist', 'Artist', 'Doctor',
         'Teacher', 'Entrepreneur', 'Farmer', 'Writer', 'Mechanic',
         'Manager', 'Engineer', 'Musician', 'Lawyer', 'Scientist',
