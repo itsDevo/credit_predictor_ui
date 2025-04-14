@@ -8,13 +8,13 @@ st.markdown(
     ### Advanced Coding Group Project
     """)
 
-st.markdown("Here in this project we have built a credit score predictor using several machine learning models." \
-            "The data was including inconsistencies and biases, so we used several techniques to remove them." \
-            "Afterwards, we conducted a thorough EDA to understand the data better." \
-            "Finally, we trained several models and compared their performance." \
-            "However, we noticed that there are 2 feature which are causing biases."\
-            "You can easily check the bias between the two models by using the same input data and only changing the city."\
-            "However, don't forget that you are free to mess around and try different values for the input data. :D")
+st.markdown("In this project we have built a credit score predictor using several machine learning models." \
+            "The dataset contains inconsistencies and biases, so we used several techniques to address and remove them." \
+            "Afterward, we conducted a thorough EDA to understand the data better." \
+            "Then, we trained several models and compared their performance." \
+            "However, we noticed that there are 2 features which are causing biases."\
+            "As an example, you can easily observe a bias between the two models by using the same input data and only changing the city."\
+            "However, feel free to experiment with different input values to explore the model's behavior further.")
 
 st.markdown("### Group Members")
 col1, col2, col3 = st.columns(3)
