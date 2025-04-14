@@ -11,7 +11,6 @@ st.markdown(
 st.markdown("Here in this project we have built a credit score predictor using several machine learning models." \
             "The data was including inconsistencies and biases, so we used several techniques to remove them." \
             "Afterwards, we conducted a thorough EDA to understand the data better." \
-            "Before we continue with the model training, we ran Variance Inflation Factor (VIF) to check for multicollinearity." \
             "Finally, we trained several models and compared their performance." \
             "However, we noticed that there are 2 feature which are causing biases."\
             "You can easily check the bias between the two models by using the same input data and only changing the city."\
