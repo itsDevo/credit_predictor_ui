@@ -5,7 +5,7 @@ from utils import model_a
 
 st.set_page_config(page_title="Credit Score Predictor",layout="wide")
 
-st.markdown("<h1 style='text-align: center;'>Credit Score Predictor (Before Bias Removal) (Random Forest)</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Credit Score Predictor (Before Bias Removal) (XGBoost)</h1>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns(3)
 
