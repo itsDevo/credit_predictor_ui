@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-path_rf_pre_bias_removal = "rf_pre_bias_removal.pkl" #Model A
+path_rf_pre_bias_removal = "xgb_pre_bias_removal.pkl" #Model A
 path_xgb_after_bias_removal = "xgb_after_bias_removal.pkl" #Model C
 
 # Load the models
