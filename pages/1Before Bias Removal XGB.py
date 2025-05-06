@@ -68,4 +68,3 @@ if st.button("Predict"):
     score = prediction[0]
 
     st.success(f"Your credit score is: {score}")
-    st.balloons()
